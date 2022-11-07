@@ -10,6 +10,8 @@
 		href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
 		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
 		crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="./Assets/CSS/custom-style.css">
 </head>
 
@@ -17,30 +19,33 @@
 	<header class="header container-fluid">
 		<!-- NAV BAR  -->
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a class="navbar-brand" href="#">Fixed navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled">Disabled</a>
-					</li>
-				</ul>
+			<div class="container">
+				<a class="navbar-brand" href="#">Santiago Gomez</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarCollapse" aria-controls="navbarCollapse"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#works">Works</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#me">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/2G2-99" target="_blank"><i
+									class="bi bi-github"></i></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
 
 	<!-- MAIN -->
-	<main class="container-fluid">
+	<main class="container-fluid pt-4">
 		<div class="row row-hero">
 			<!-- HERO -->
 			<div class="jumbotron col-12">
@@ -59,141 +64,110 @@
 		</div>
 		<!-- CONTENT -->
 		<div class="row row-content">
-			<!-- WORK -->
-			<section class="work col-sm-12 col-md-8 col-lg-10">
-				<div class="container">
-					<h2 class="section-heading">Works</h2>
-					<!-- ROW 1 -->
-					<div class="row m-3">
-						<!-- CARD 1-->
-						<div class="card-container col-sm-12 col-md-12 col-lg-12">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- ROW 2 -->
-					<div class="row m-3">
-						<!-- CARD 2-->
-						<div class="card-container col-sm-12 col-md-6 col-lg-6">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
-							</div>
-						</div>
-
-						<!-- CARD 3 -->
-						<div class="card-container col-sm-12 col-md-6 col-lg-6">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- ROW 3 -->
-					<div class="row m-3">
-						<!-- CARD 4 -->
-						<div class="card-container col-sm-12 col-md-4 col-lg-4">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
-							</div>
-						</div>
-						<!-- CARD 5 -->
-						<div class="card-container col-sm-12 col-md-4 col-lg-4">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
-							</div>
-						</div>
-						<!-- CARD 6 -->
-						<div class="card-container col-sm-12 col-md-4 col-lg-4">
-							<div class="card">
-								<img src="https://placehold.co/200x100/png" class="card-img-top"
-									alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
-										adipisicing elit. Quae, assumenda?</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
-								</div>
+			<!-- WORKS -->
+			<div id="works" class="container-fluid col-12 col-lg-8">
+				<h2 class="section-heading">Works</h2>
+				<!-- ROW 1 -->
+				<div class="row m-3">
+					<!-- CARD 1-->
+					<div class="card-container col-sm-12 col-md-12 col-lg-12">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+				<!-- ROW 2 -->
+				<div class="row m-3">
+					<!-- CARD 2-->
+					<div class="card-container col-sm-12 col-md-6 col-lg-6">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
 
-			<!-- SKILLS -->
-			<aside class="skills col-sm-12 col-md-4 col-lg-2">
-				<div class="container">
-					<h2 class="aside-heading">Skills</h2>
-					<div class="row">
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">An item</li>
-							<li class="list-group-item">A second item</li>
-							<li class="list-group-item">A third item</li>
-							<li class="list-group-item">A fourth item</li>
-							<li class="list-group-item">And a fifth one</li>
-						</ul>
+					<!-- CARD 3 -->
+					<div class="card-container col-sm-12 col-md-6 col-lg-6">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
 					</div>
 				</div>
-			</aside>
+				<!-- ROW 3 -->
+				<div class="row m-3">
+					<!-- CARD 4 -->
+					<div class="card-container col-sm-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<!-- CARD 5 -->
+					<div class="card-container col-sm-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<!-- CARD 6 -->
+					<div class="card-container col-sm-12 col-md-4 col-lg-4">
+						<div class="card">
+							<img src="https://placehold.co/200x100/png" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Card Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Quae, assumenda?</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<!-- ABOUT-ME/CONTACT-ME-->
-			<section class="me col-12">
-				<div class="container">
-					<h2>About me</h2>
-					<div class="row">
-						<!-- ABOUT-ME -->
-						<div class="card m-2">
+			<div id="me" class="container col-12 col-lg-4">
+				<div class="row">
+					<!-- ABOUT-ME -->
+					<div class="container my-2">
+						<div class="card">
 							<h5 class="card-header">About me</h5>
 							<div class="card-body">
 								<h5 class="card-title">Special title treatment</h5>
-								<p class="card-text">With supporting text below as a natural lead-in
-									to
-									additional content.
-								</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
-							</div>
-						</div>
-
-						<!-- CONTACT-ME -->
-						<div class="card m-2">
-							<h5 class="card-header">Contact me</h5>
-							<div class="card-body">
-								<h5 class="card-title">Special title treatment</h5>
-								<p class="card-text">With supporting text below as a natural lead-in
+								<p class="card-text">With supporting text below as a natural
+									lead-in
 									to
 									additional content.
 								</p>
@@ -201,8 +175,43 @@
 							</div>
 						</div>
 					</div>
+					<div class="container my-2">
+						<!-- CONTACT-ME -->
+						<div class="card">
+							<h5 class="card-header">Contact me</h5>
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">With supporting text below as a natural
+									lead-in
+									to
+									additional content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+
+
+
 				</div>
-			</section>
+			</div>
+
+			<!-- SKILLS -->
+			<div id="skills" class="container col-12">
+				<h2 class="aside-heading">Skills</h2>
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-2"></div>
+					<ul class="list-group list-group-flush w-100">
+						<li class="list-group-item">An item</li>
+						<li class="list-group-item">A second item</li>
+						<li class="list-group-item">A third item</li>
+						<li class="list-group-item">A fourth item</li>
+						<li class="list-group-item">And a fifth one</li>
+					</ul>
+				</div>
+			</div>
+
+
 
 			<!-- SKILLS -->
 		</div>
@@ -212,15 +221,18 @@
 	<footer class="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<p>
-					<button type="button" class="btn btn-link">Link 1</button>
-				</p>
-				<p>
-					<button type="button" class="btn btn-link">Link 2</button>
-				</p>
-				<p>
-					<button type="button" class="btn btn-link">Link 3</button>
-				</p>
+				<a href="#" class="btn btn-primary m-2" role="button">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="#" class="btn btn-primary m-2" role="button">
+					<i class="bi  bi-instagram"></i>
+				</a>
+				<a href="#" class="btn btn-primary m-2" role="button">
+					<i class="bi  bi-linkedin"></i>
+				</a>
+			</div>
+			<div class="row">
+				<p>&copy; Santiago Gomez 2022</p>
 			</div>
 		</div>
 	</footer>
