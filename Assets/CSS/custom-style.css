@@ -1,0 +1,141 @@
+/* GLOBALS 🌐 */
+:root {
+	/* COLORS */
+	--sand-dollar: #e5ddc8;
+	--teal: #01949a;
+	--navy-blue: #004369;
+	--red: #db1f48;
+	/* FONTS */
+	--josefine-sans: 'Josefin Sans', sans-serif;
+	--josefine-slab: 'Josefin Slab', serif;
+	--urbanist: 'Urbanist', sans-serif;
+}
+
+body {
+	font-family: var(--urbanist);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--josefine-sans);
+}
+
+/* HEADER  */
+nav#header-nav,
+nav#footer-nav {
+	background-color: var(--navy-blue) !important;
+}
+
+/* MAIN  */
+main {
+	background-color: var(--teal);
+	color: var(--sand-dollar);
+}
+
+/* HERO  */
+.jumbotron {
+	background-color: var(--red);
+	/* color: var(--sand-dollar); */
+}
+
+/* HERO PICTURE */
+.jumbotron img {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* CONTENT */
+
+/* WORKS */
+#works .card {
+	background-color: #004369 !important;
+}
+
+/* CARDS BUTTONS */
+a.btn.btn-primary {
+	background-color: var(--red);
+	border: none;
+	transition: all 0.5s;
+}
+
+a.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: var(--red);
+	border: none;
+}
+
+a.btn.btn-primary:hover {
+	background-color: var(--teal);
+	box-shadow: 0.5em 0.5em 10px rgba(0, 0, 0, 0.7);
+	transition: all 0.5s;
+	transition-timing-function: ease-out;
+}
+
+a.btn.btn-primary:focus {
+	background-color: var(--red);
+	border: none;
+}
+
+/* SIDEBAR */
+#me .card {
+	background-color: var(--red) !important;
+}
+
+/* HEADER */
+h5.card-header {
+	background-color: var(--teal);
+}
+
+/* CONTACT ME BUTTON */
+input.btn.btn-primary {
+	background-color: var(--teal);
+	border: none;
+	transition: all 0.5s;
+}
+
+input.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: var(--teal);
+	border: none;
+	outline: none;
+}
+
+input.btn.btn-primary:hover {
+	background-color: var(--navy-blue);
+	box-shadow: 0.5em 0.5em 10px rgba(0, 0, 0, 0.7);
+	transition: all 0.5s;
+	transition-timing-function: ease-out;
+}
+
+input.btn.btn-primary:focus {
+	background-color: var(--red);
+	border: none;
+}
+
+/* SKILLS */
+#skills.container.col-12 {
+	background-color: var(--sand-dollar);
+	color: var(--navy-blue);
+}
+
+/* FOOTER */
+
+/* NAV BUTTONS */
+ul#social.nav.justify-content-center a.btn.btn-primary.spotify-btn {
+	background-color: #1ed760;
+}
+
+ul#social.nav.justify-content-center a.btn.btn-primary.twitter-btn {
+	background-color: #1da1f2;
+}
+
+ul#social.nav.justify-content-center a.btn.btn-primary.linkedin-btn {
+	background-color: #0a66c2;
+}
