@@ -8,6 +8,8 @@ This applications stands as a template for a portfolio which can be used in the 
 
 This site has been published through GitHub Pages.
 
+-   https://2g2-99.github.io/Bootstrap-Portfolio/
+
 ### Comments
 
 This webpage has been developed with bootstrap 4, implementing some basic style through it and customising some other features and style.
